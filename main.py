@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 
-# Creamos la instancia de la aplicación
 app = FastAPI()
 
 @app.get("/")
